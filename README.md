@@ -86,7 +86,7 @@ The platform features a sophisticated 3-phase agentic investigation system:
 - Generates comprehensive investigation insights
 - Provides actionable recommendations
 
-## 🆕 Recent Updates (January 2025)
+## 🆕 Recent Updates
 
 ### 🎯 Major Enhancements
 - **🤖 Complete Agentic Investigation Pipeline**: Full end-to-end AI-powered investigation system
