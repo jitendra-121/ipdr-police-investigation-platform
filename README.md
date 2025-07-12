@@ -124,7 +124,7 @@ The platform features a sophisticated 3-phase agentic investigation system:
 
 *For complete details, see [CHANGELOG.md](./CHANGELOG.md)*
 
-## 🔮 Upcoming Enhancements (July 2025)
+## 🔮 Upcoming Enhancements 
 
 ### 🚧 **In Development**
 
@@ -143,10 +143,6 @@ The platform features a sophisticated 3-phase agentic investigation system:
 - **📊 Rich Interactive Visualizations**: 3D network graphs, timeline analysis, and geospatial mapping
 - **🎨 Enhanced User Experience**: Interactive evidence correlation and communication flow diagrams
 
-### 📅 **Release Timeline**
-- **Phase 1** (Week 1-2): Infrastructure preparation and server restructuring
-- **Phase 2** (Week 3-4): AI integration and Copilot API wrapper development  
-- **Phase 3** (Week 5-6): Memory system and advanced visualizations
 
 *See [FUTURE_ENHANCEMENTS.md](./FUTURE_ENHANCEMENTS.md) for complete roadmap*
 
@@ -587,11 +583,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support and questions:
-- 📧 Email: support@investigation-platform.com
-- 💬 Discord: [Join our community](https://discord.gg/investigation-platform)
-- 📖 Documentation: [Full documentation](https://docs.investigation-platform.com)
-- 🐛 Issues: [GitHub Issues](https://github.com/your-repo/issues)
 
 ---
 
