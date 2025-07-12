@@ -1,0 +1,146 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  --radius: 0.625rem;
+  /* Custom Police Investigation Platform Colors - Updated Theme */
+  --background: #F7F7F7; /* Seasalt - light background */
+  --foreground: #323232; /* Jet - dark text */
+  --card: #ffffff; /* pure white for cards */
+  --card-foreground: #323232; /* Jet - dark text on cards */
+  --popover: #ffffff;
+  --popover-foreground: #323232;
+  --primary: #1A1455; /* Federal blue - main brand color */
+  --primary-foreground: #F7F7F7; /* Seasalt text on primary */
+  --secondary: #92A1AB; /* Cadet gray - secondary actions */
+  --secondary-foreground: #323232; /* Jet text on secondary */
+  --muted: #F7F7F7; /* Seasalt for muted elements */
+  --muted-foreground: #7F7F80; /* Gray for muted text */
+  --accent: #1A1455; /* Federal blue for accents */
+  --accent-foreground: #F7F7F7; /* Seasalt text on accents */
+  --destructive: #ef4444; /* Keep red for destructive actions */
+  --border: #92A1AB; /* Cadet gray borders */
+  --input: #92A1AB; /* Cadet gray input borders */
+  --ring: #1A1455; /* Federal blue focus rings */
+  --chart-1: #1A1455; /* Federal blue */
+  --chart-2: #92A1AB; /* Cadet gray */
+  --chart-3: #7F7F80; /* Gray */
+  --chart-4: #323232; /* Jet */
+  --chart-5: #F7F7F7; /* Seasalt */
+  --sidebar: #1A1455; /* Federal blue sidebar */
+  --sidebar-foreground: #F7F7F7; /* Seasalt text */
+  --sidebar-primary: #92A1AB; /* Cadet gray for sidebar primary */
+  --sidebar-primary-foreground: #323232; /* Jet text */
+  --sidebar-accent: #7F7F80; /* Gray for sidebar accents */
+  --sidebar-accent-foreground: #F7F7F7; /* Seasalt text */
+  --sidebar-border: #7F7F80; /* Gray borders */
+  --sidebar-ring: #92A1AB; /* Cadet gray focus rings */
+}
+
+.dark {
+  --background: #323232; /* Jet - dark background */
+  --foreground: #F7F7F7; /* Seasalt - light text */
+  --card: #1A1455; /* Federal blue cards in dark mode */
+  --card-foreground: #F7F7F7; /* Seasalt text on cards */
+  --popover: #1A1455;
+  --popover-foreground: #F7F7F7;
+  --primary: #92A1AB; /* Cadet gray as primary in dark mode */
+  --primary-foreground: #323232; /* Jet text on primary */
+  --secondary: #7F7F80; /* Gray for secondary in dark mode */
+  --secondary-foreground: #F7F7F7; /* Seasalt text */
+  --muted: #7F7F80; /* Gray for muted elements */
+  --muted-foreground: #92A1AB; /* Cadet gray for muted text */
+  --accent: #92A1AB; /* Cadet gray accents */
+  --accent-foreground: #323232; /* Jet text on accents */
+  --destructive: #ef4444; /* Keep red for destructive actions */
+  --border: #7F7F80; /* Gray borders */
+  --input: #7F7F80; /* Gray input borders */
+  --ring: #92A1AB; /* Cadet gray focus rings */
+  --chart-1: #92A1AB; /* Cadet gray */
+  --chart-2: #F7F7F7; /* Seasalt */
+  --chart-3: #7F7F80; /* Gray */
+  --chart-4: #1A1455; /* Federal blue */
+  --chart-5: #323232; /* Jet */
+  --sidebar: #323232; /* Jet sidebar in dark mode */
+  --sidebar-foreground: #F7F7F7; /* Seasalt text */
+  --sidebar-primary: #1A1455; /* Federal blue for sidebar primary */
+  --sidebar-primary-foreground: #F7F7F7; /* Seasalt text */
+  --sidebar-accent: #92A1AB; /* Cadet gray for sidebar accents */
+  --sidebar-accent-foreground: #323232; /* Jet text */
+  --sidebar-border: #92A1AB; /* Cadet gray borders */
+  --sidebar-ring: #1A1455; /* Federal blue focus rings */
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+/* Custom styles for police investigation platform */
+.chat-message-user {
+  @apply bg-blue-600 text-white;
+}
+
+.chat-message-ai {
+  @apply bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white;
+}
+
+.status-success {
+  @apply bg-green-100 text-green-800;
+}
+
+.status-warning {
+  @apply bg-yellow-100 text-yellow-800;
+}
+
+.status-error {
+  @apply bg-red-100 text-red-800;
+}
+
+.status-info {
+  @apply bg-blue-100 text-blue-800;
+}
