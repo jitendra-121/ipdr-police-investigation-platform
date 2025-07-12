@@ -2,22 +2,7 @@
 
 > **A comprehensive AI-powered investigation platform for law enforcement agencies to analyze Call Detail Records (CDR), Internet Protocol Detail Records (IPDR), and other telecommunications data with advanced graph database integration and intelligent agentic query processing.**
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![React](https://im├── 🚀 Startup Scripts
-│   ├── 🤖 start_agentic_servers.py  # Start agentic system
-│   ├── 🔧 start_servers.py          # Start basic system
-│   └── 🔧 start_servers_simple.py   # Simplified startup
-└── 📚 Documentation
-    ├── 📖 README.md              # This file
-    ├── 📋 CHANGELOG.md           # Change log
-    └── 📋 FUTURE_ENHANCEMENTS.md # Planned featuress.io/badge/React-19+-61DAFB.svg)](https://reactjs.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-Latest-009688.svg)](https://fastapi.tiangolo.com)
-[![Neo4j](https://img.shields.io/badge/Neo4j-5.x-008CC1.svg)](https://neo4j.com)
-[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-412991.svg)](https://openai.com)
-[![Vite](https://img.shields.io/badge/Vite-6.x-646CFF.svg)](https://vitejs.dev)
-[![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3ECF8E.svg)](https://supabase.com)
-[![Agentic](https://img.shields.io/badge/Agentic-AI--Powered-FF6B6B.svg)](#)
-[![Real-time](https://img.shields.io/badge/Real--time-Investigation-4ECDC4.svg)](#)
+
 
 ## 🌟 Overview
 
